@@ -7,6 +7,6 @@ labels.forEach((label) => {
       (letter, idx) =>
         `<span style="transition-delay:${idx * 50}ms">${letter}</span>`
     )
-    .join(""); 
+    .join("");  
 }); 
   
